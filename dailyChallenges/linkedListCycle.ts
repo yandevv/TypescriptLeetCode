@@ -1,3 +1,4 @@
+// My First Try
 class ListNode {
     val: number
     next: ListNode | null
@@ -20,3 +21,18 @@ function hasCycle(head: ListNode | null): boolean {
 
     return false;
 };
+
+// My Second Try after seeing discussions (optimized)
+// function hasCycle(head: ListNode | null): boolean {
+//     if(!head && !head?.next) return false;
+
+//     let slow: ListNode = head;
+//     let fast: ListNode = head.next;
+//     while(fast && fast.next) {
+//         if(fast === slow) return true;
+//         slow = slow.next;
+//         fast = fast.next.next;
+//     }
+
+//     return false;
+// };
