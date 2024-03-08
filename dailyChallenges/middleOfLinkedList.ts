@@ -7,6 +7,7 @@ class ListNode {
     }
 }
 
+// My First Try
 function middleNode(head: ListNode | null): ListNode | null {
     if(head) {
         let linkedListLength = 1;
@@ -23,3 +24,23 @@ function middleNode(head: ListNode | null): ListNode | null {
     }
     return null
 };
+
+// My Second Try after seeing discussions (optimized)
+// function middleNode(head: ListNode | null): ListNode | null {
+//     if(head) {
+//         let slow = head;
+//         let fast = head;
+
+//         if(!fast.next) {
+//             return fast;
+//         }
+
+//         while(fast && fast.next) {
+//             slow = slow.next
+//             fast = fast.next.next;
+//         }
+
+//         return slow;
+//     }
+//     return null
+// };
