@@ -6,3 +6,13 @@ function twoSum(nums: number[], target: number): number[] {
         }
     }
 };
+
+// My Second Try (hashmap complement)
+function twoSum(nums: number[], target: number): number[] {
+    const numsMap: Map<number, number> = new Map<number, number>();
+    for(let i = 0; i < nums.length; i++) {
+        const complementIndex = numsMap.get(target - nums[i])
+        if(complementIndex !== undefined) return [complementIndex, i];
+        numsMap.set(nums[i], i);
+    }
+};
