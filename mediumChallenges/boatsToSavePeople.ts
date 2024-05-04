@@ -34,3 +34,16 @@ function numRescueBoats(people: number[], limit: number): number {
     }
     return numBoats;
 };
+
+// Second Approach (Most Optimized, removing shifting and popping operations as it slows algorithm)
+function numRescueBoats(people: number[], limit: number): number {
+    let numBoats: number = 0;
+    people.sort((a, b) => a - b);
+    let l: number = 0, r: number = people.length - 1;
+    while(l <= r) {
+        if(people[l] + people[r] <= limit) l++;
+        numBoats++;
+        r--;
+    }
+    return numBoats;
+};
