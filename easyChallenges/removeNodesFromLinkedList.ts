@@ -40,3 +40,25 @@ function removeNodes(head: ListNode | null): ListNode | null {
     }
     return newHead;
 };
+
+// Second Approach (reverse transverse with recursion and compare with the greatest value)
+function removeNodes(head: ListNode | null): ListNode | null {
+    let lastBiggestNode: ListNode | undefined = undefined;
+    function iterateList(node: ListNode) {
+        if(node.next) {
+            iterateList(node.next)
+        } else {
+            lastBiggestNode = node;
+            return node;
+        }
+        if(lastBiggestNode !== undefined) {
+            if(node.val >= lastBiggestNode.val) {
+                node.next = lastBiggestNode;
+                lastBiggestNode = node;
+            }
+        }
+        return node;
+    }
+    iterateList(head!);
+    return lastBiggestNode!;
+};
