@@ -1,3 +1,48 @@
+
+// First try (DFS through every possible path calculating min manhattan value from every thief at grid)
+function maximumSafenessFactor(grid: number[][]): number {
+    const n: number = grid.length;
+    const thievesCells: number[][] = [];
+    for(let r: number = 0; r < n; r++) {
+        for(let c: number = 0; c < n; c++) {
+            if(grid[r][c] === 1) thievesCells.push([r, c]);
+        }
+    }
+    function getMaximumSafeness(r: number, c: number, minFactor?: number, gridMock: number[][] = grid): number {
+        const newGridMock: number[][] = [];
+        gridMock.forEach((value) => newGridMock.push([...value]));
+        newGridMock[r][c] = -1;
+        let cellMinSafenessFactor: number = Math.abs(c - thievesCells[0][1]) + Math.abs(r - thievesCells[0][0]);
+        for(let thiefCell of thievesCells) {
+            const actualCellFactor: number = Math.abs(c - thiefCell[1]) + Math.abs(r - thiefCell[0]);
+            cellMinSafenessFactor = Math.min(cellMinSafenessFactor, actualCellFactor);
+        }
+        if(minFactor === undefined) minFactor = cellMinSafenessFactor;
+        const pathFactors: number[] = [];
+        if((r + 1) === n && (c + 1) === n) return Math.min(minFactor, cellMinSafenessFactor);
+        if((c + 1) < n && newGridMock[r][c + 1] !== -1) {
+            const rightPath = getMaximumSafeness(r, c + 1, Math.min(minFactor, cellMinSafenessFactor), newGridMock);
+            rightPath > -1 ? pathFactors.push(rightPath) : "";
+        }
+        if((r + 1) < n && newGridMock[r + 1][c] !== -1) {
+            const downPath = getMaximumSafeness(r + 1, c, Math.min(minFactor, cellMinSafenessFactor), newGridMock);
+            downPath > -1 ? pathFactors.push(downPath) :  "";
+        }
+        if((c - 1) > -1 && newGridMock[r][c - 1]) {
+            const leftPath = getMaximumSafeness(r, c - 1, Math.min(minFactor, cellMinSafenessFactor), newGridMock);
+            leftPath > -1 ? pathFactors.push(leftPath) : "";
+        }
+        if((r - 1) > -1 && newGridMock[r - 1][c]) {
+            const upPath = getMaximumSafeness(r, c - 1, Math.min(minFactor, cellMinSafenessFactor), newGridMock);
+            upPath > -1 ? pathFactors.push(upPath) : "";
+        }
+        if(pathFactors.length === 0) return -1;
+        return Math.max(...pathFactors);
+    }
+    return getMaximumSafeness(0, 0);
+};
+
+// BFS - Priority Queue - Djikstra Approach
 class QueueElement {
     element: number[];
     priority: number;
