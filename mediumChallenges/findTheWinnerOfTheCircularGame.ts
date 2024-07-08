@@ -1,3 +1,12 @@
+class ListNode {
+    val: number;
+    next: ListNode | null;
+    constructor(val: number, next: ListNode | null = null) {
+        this.val = val;
+        this.next = next;
+    }
+}
+
 // First Approach - Linked List solution, creating n numbered nodes and iterate through the created nodes, deleting by the k rule param
 function findTheWinner(n: number, k: number): number {
     if(n === 1) return 1;
