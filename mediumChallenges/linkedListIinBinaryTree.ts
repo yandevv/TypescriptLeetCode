@@ -52,7 +52,8 @@ const res = dfs(root!, nums);
 return res;
 };
 
-// First Approach - DFS method backtracking when the value doesn't match, tracking by head and current node from linked list. (68ms - Beats 81.46%)
+//! This approach has a logic failure on second if, reassigning the head by the next node.
+// First Approach - DFS method backtracking when the value doesn't match, tracking by head and current node from linked list. (https://leetcode.com/problems/linked-list-in-binary-tree/solutions/5748536/beats-100-explained-with-video-c-java-python-dfs-two-pointers-explained-in-detail/?envType=daily-question&envId=2024-09-07)
 function isSubPath(head: ListNode | null, root: TreeNode | null): boolean {
 function dfs(head: ListNode | null, cur: ListNode | null, root: TreeNode | null): boolean {
   if(cur === null)
