@@ -1,9 +1,12 @@
 # Typescript + LeetCode
-<center style="margin-bottom: 12px;">
-<img src="./assets/leetCodePlusTypescriptLogo.png" alt="Logo Typescript + LeetCode" style="margin-bottom: 12px;"/>
 
-A repository intended to register my **LeetCode challenges** developed with **`Typescript`**.
-</center>
+<p align="center">
+  <img src="./assets/leetCodePlusTypescriptLogo.png" alt="Logo Typescript + LeetCode" style="margin-bottom: 12px;"/>
+</p>
+
+<p align="center">
+  A repository intended to register my <strong>LeetCode challenges</strong> developed with <strong><code>Typescript</code></strong>.
+</p>
 
 ## Table of Contents
 - [Typescript + LeetCode](#typescript--leetcode)
