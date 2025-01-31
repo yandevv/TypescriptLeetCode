@@ -1,5 +1,3 @@
-# Typescript + LeetCode
-
 <p align="center">
   <img src="./assets/typescriptLeetcodeLogo.png" alt="Logo Typescript + LeetCode" style="margin-bottom: 12px;"/>
 </p>
@@ -10,14 +8,13 @@
 
 ## Table of Contents
 
-- [Typescript + LeetCode](#typescript--leetcode)
-  - [Table of Contents](#table-of-contents)
-  - [How to Run a Challenge](#how-to-run-a-challenge)
-    - [Installing Dependencies](#installing-dependencies)
-    - [Executing Code](#executing-code)
-  - [Easy Problems](#easy-problems)
-  - [Medium Problems](#medium-problems)
-  - [Hard Problems](#hard-problems)
+- [Table of Contents](#table-of-contents)
+- [How to Run a Challenge](#how-to-run-a-challenge)
+  - [Installing Dependencies](#installing-dependencies)
+  - [Executing Code](#executing-code)
+- [Easy Problems](#easy-problems)
+- [Medium Problems](#medium-problems)
+- [Hard Problems](#hard-problems)
 
 ## How to Run a Challenge
 
