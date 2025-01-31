@@ -1,7 +1,7 @@
 # Typescript + LeetCode
 
 <p align="center">
-  <img src="./assets/leetCodePlusTypescriptLogo.png" alt="Logo Typescript + LeetCode" style="margin-bottom: 12px;"/>
+  <img src="./assets/typescriptLeetcodeLogo.png" alt="Logo Typescript + LeetCode" style="margin-bottom: 12px;"/>
 </p>
 
 <p align="center">
@@ -224,7 +224,56 @@ ts-node ./mediumChallenges/primeSubtractionOperation.ts
 | 3223. [Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/) | Hash Table, String, Counting | [minimumLengthOfStringAfterOperations.ts](./mediumChallenges/minimumLengthOfStringAfterOperations.ts) |
 | 2914. [Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/) | String | [minimumNumberOfChangesToMakeBinaryStringBeautiful.ts](./mediumChallenges/minimumNumberOfChangesToMakeBinaryStringBeautiful.ts) |
 | 1482. [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/) | Array, Binary Search | [minimumNumberOfDaysToMakeMBouquets.ts](./mediumChallenges/minimumNumberOfDaysToMakeMBouquets.ts) |
-|  |||
+| 1769. [Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/description/) | Array, String, Prefix Sum | [minimumNumberOfOperationsToMoveAllBallsToEachBox.ts](./mediumChallenges/minimumNumberOfOperationsToMoveAllBallsToEachBox.ts) |
+| 2471. [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/description/) | Tree, Breadth-First Search, Binary Tree | [minimumNumberOfOperationsToSortABinaryTreeByLevel.ts](./mediumChallenges/minimumNumberOfOperationsToSortABinaryTreeByLevel.ts) |
+| 3016. [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/) | Hash Table, String, Greedy, Sorting, Counting | [minimumNumberOfPushesToTypeWordII.ts](./mediumChallenges/minimumNumberOfPushesToTypeWordII.ts) |
+| 2134. [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/description/) | Array, Sliding Window | [minimumSwapsToGroupAll1sTogetherII.ts](./mediumChallenges/minimumSwapsToGroupAll1sTogetherII.ts) |
+| 539. [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/) | Array, Math, String, Sorting | [minimumTimeDifference.ts](./mediumChallenges/minimumTimeDifference.ts) |
+| 826. [Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/description/) | Array, Two Pointers, Binary Search, Greedy, Sorting | [mostProfitAssigningWork.ts](./mediumChallenges/mostProfitAssigningWork.ts) |
+| 2337. [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/description/) | Two Pointers, String | [movePiecesToObtainAString.ts](./mediumChallenges/movePiecesToObtainAString.ts) |
+| 729. [My Calendar I](https://leetcode.com/problems/my-calendar-i/description/) | Array, Binary Search, Design, Segment Tree, Ordered Set | [myCalendarI.ts](./mediumChallenges/myCalendarI.ts) |
+| 2683. [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/description/) | Array, Bit Manipulation | [neighboringBitwiseXOR.ts](./mediumChallenges/neighboringBitwiseXOR.ts) |
+| 1530. [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/) | Tree, Depth-First Search, Binary Tree | [numberOfGoodLeafNodesPairs.ts](./mediumChallenges/numberOfGoodLeafNodesPairs.ts) |
+| 200. [Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix | [numberOfIslands.ts](./mediumChallenges/numberOfIslands.ts) |
+| 1404. [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) | String, Bit Manipulation | [numberOfStepsToReduceANumberInBinaryRepresentationToOne.ts](./mediumChallenges/numberOfStepsToReduceANumberInBinaryRepresentationToOne.ts) |
+| 2270. [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/) | Array, Prefix Sum | [numberOfWaysToSplitArray.ts](./mediumChallenges/numberOfWaysToSplitArray.ts) |
+| 131. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | String, Dynamic Programming, Backtracking | [palindromePartitioning.ts](./mediumChallenges/palindromePartitioning.ts) |
+| 1219. [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/description/) | Array, Backtracking, Matrix | [pathWithMaximumGold.ts](./mediumChallenges/pathWithMaximumGold.ts) |
+| 567. [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/) | Hash Table, Two Pointers, String, Sliding Window | [permutationInString.ts](./mediumChallenges/permutationInString.ts) |
+| 2601. [Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/description/) | Array, Math, Binary Search, Greedy, Number Theory | [primeSubtractionOperation.ts](./mediumChallenges/primeSubtractionOperation.ts) |
+| 1508. [Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/description/) | Array, Two Pointers, Binary Search, Sorting | [rangeSumOfSortedSubarraySums.ts](./mediumChallenges/rangeSumOfSortedSubarraySums.ts) |
+| 959. [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/description/) | Array, Hash Table, Depth-First Search, Breadth-First Search, Union Find, Matrix | [regionsCutBySlashes.ts](./mediumChallenges/regionsCutBySlashes.ts) |
+| 2487. [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | Linked List, Stack, Recursion, Monotonic Stack | [removeNodesFromLinkedList.ts](./mediumChallenges/removeNodesFromLinkedList.ts) |
+| 648. [Replace Words](https://leetcode.com/problems/replace-words/description/) | Array, Hash Table, String, Trie | [replaceWords.ts](./mediumChallenges/replaceWords.ts) |
+| 2415. [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/) | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [reverseOddLevelsOfBinaryTree.ts](./mediumChallenges/reverseOddLevelsOfBinaryTree.ts) |
+| 861. [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/) | Array, Greedy, Bit Manipulation, Matrix | [scoreAfterFlippingMatrix.ts](./mediumChallenges/scoreAfterFlippingMatrix.ts) |
+| 1813. [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/description/) | Array, Two Pointers, String | [sentenceSimilarityIII.ts](./mediumChallenges/sentenceSimilarityIII.ts) |
+| 2938. [Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/description/) | Two Pointers, String, Greedy | [separateBlackAndWhiteBalls.ts](./mediumChallenges/separateBlackAndWhiteBalls.ts) |
+| 2381. [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Array, String, Prefix Sum | [shiftingLettersII.ts](./mediumChallenges/shiftingLettersII.ts) |
+| 3097. [Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/description/) | Array, Bit Manipulation, Sliding Window | [shortestSubarrayWithORAtLeastKII.ts](./mediumChallenges/shortestSubarrayWithORAtLeastKII.ts) |
+| 260. [Single Number III](https://leetcode.com/problems/single-number-iii/description/) | Array, Bit Manipulation | [singleNumberIII.ts](./mediumChallenges/singleNumberIII.ts) |
+| 912. [Sort an Array](https://leetcode.com/problems/sort-an-array/description/) | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort | [sortAnArray.ts](./mediumChallenges/sortAnArray.ts) |
+| 75. [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | Array, Two Pointers, Sorting | [sortColors.ts](./mediumChallenges/sortColors.ts) |
+| 2191. [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/description/) | Array, Sorting | [sortTheJumbledNumbers.ts](./mediumChallenges/sortTheJumbledNumbers.ts) |
+| 885. [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/description/) | Array, Matrix, Simulation | [spiralMatrixIII.ts](./mediumChallenges/spiralMatrixIII.ts) |
+| 2326. [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/description/) | Array, Linked List, Matrix, Simulation | [spiralMatrixIV.ts](./mediumChallenges/spiralMatrixIV.ts) |
+| 1593. [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/description/) | Hash Table, String, Backtracking | [splitAStringIntoTheMaxNumberOfUniqueSubstrings.ts](./mediumChallenges/splitAStringIntoTheMaxNumberOfUniqueSubstrings.ts) |
+| 725. [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/) | Linked List | [splitLinkedListInParts.ts](./mediumChallenges/splitLinkedListInParts.ts) |
+| 2096. [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/) | String, Tree, Depth-First Search, Binary Tree | [StepDirectionsFromABinaryTreeNodeToAnother.ts](./mediumChallenges/step-By-StepDirectionsFromABinaryTreeNodeToAnother.ts) |
+| 3163. [String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | String | [stringCompressionIII.ts](./mediumChallenges/stringCompressionIII.ts) |
+| 713. [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/) | Array, Binary Search, Sliding Window, Prefix Sum | [subarrayProductLessThanK.ts](./mediumChallenges/subarrayProductLessThanK.ts) |
+| 974. [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/) | Array, Hash Table, Prefix Sum | [subarraySumsDivisibleByK.ts](./mediumChallenges/subarraySumsDivisibleByK.ts) |
+| 78. [Subsets](https://leetcode.com/problems/subsets/description/) | Array, Backtracking, Bit Manipulation | [subsets.ts](./mediumChallenges/subsets.ts) |
+| 633. [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | Math, Two Pointers, Binary Search | [sumOfSquareNumbers.ts](./mediumChallenges/sumOfSquareNumbers.ts) |
+| 129. [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) | Tree, Depth-First Search, Binary Tree | [sumRootToLeafNumbers.ts](./mediumChallenges/sumRootToLeafNumbers.ts) |
+| 494. [Target Sum](https://leetcode.com/problems/target-sum/description/) | Array, Dynamic Programming, Backtracking | [targetSum.ts](./mediumChallenges/targetSum.ts) |
+| 2597. [The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/description/) | Array, Hash Table, Math, Dynamic Programming, Backtracking, Sorting, Combinatorics | [theNumberOfBeautifulSubsets.ts](./mediumChallenges/theNumberOfBeautifulSubsets.ts) |
+| 1942. [The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/description/) | Array, Hash Table, Heap (Priority Queue) | [theNumberOfTheSmallestUnoccupiedChair.ts](./mediumChallenges/theNumberOfTheSmallestUnoccupiedChair.ts) |
+| 264. [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/description/) | Hash Table, Math, Dynamic Programming, Heap (Priority Queue) | [uglyNumberII.ts](./mediumChallenges/uglyNumberII.ts) |
+| 1930. [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/description/) | Hash Table, String, Bit Manipulation, Prefix Sum | [uniqueLength-3PalindromicSubsequences.ts](./mediumChallenges/uniqueLength-3PalindromicSubsequences.ts) |
+| 874. [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/) | Array, Hash Table, Simulation | [walkingRobotSimulation.ts](./mediumChallenges/walkingRobotSimulation.ts) |
+| 916. [Word Subsets](https://leetcode.com/problems/word-subsets/description/) | Array, Hash Table, String | [wordSubsets.ts](./mediumChallenges/wordSubsets.ts) |
+| 1310. [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/) | Array, Bit Manipulation, Prefix Sum | [xorQueriesOfASubarray.ts](./mediumChallenges/xorQueriesOfASubarray.ts) |
 
 ## Hard Problems
 
