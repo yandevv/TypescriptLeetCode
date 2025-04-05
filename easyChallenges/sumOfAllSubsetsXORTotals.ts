@@ -32,3 +32,14 @@ function subsetXORSum(nums: number[]): number {
     }
     return dfs(0, 0);
 };
+
+// Second Approach - Better developed approach first approach without defining a DFS function (1ms - Beats 80.00%)
+function subsetXORSum(nums: number[], index = 0, xorSum = 0): number {
+    if(index === nums.length)
+      return xorSum;
+  
+    const leftSum = subsetXORSum(nums, index + 1, xorSum);
+    const rightSum = subsetXORSum(nums, index + 1, xorSum ^ nums[index]);
+  
+    return leftSum + rightSum;
+  };
