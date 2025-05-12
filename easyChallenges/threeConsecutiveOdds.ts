@@ -23,3 +23,18 @@ function threeConsecutiveOdds(arr: number[]): boolean {
     }
     return false;
 };
+
+// First Approach - Simple brute force approach iterating over arr checking three positions. (0ms - Beats 100.00% / 11-05-2025)
+function threeConsecutiveOdds(arr: number[]): boolean {
+    for(let i = 0; i < arr.length - 2; i++)
+      if(arr[i] % 2 !== 0 && arr[i + 1] % 2 !== 0 && arr[i + 2] % 2 !== 0)
+        return true;
+  
+    return false;
+  };
+
+const case1 = threeConsecutiveOdds([2,6,4,1]);
+const case2 = threeConsecutiveOdds([1,2,34,3,4,5,7,23,12]);
+
+console.log(`case1: ${case1} // ${!case1}`);
+console.log(`case2: ${case2} // ${case2}`);
